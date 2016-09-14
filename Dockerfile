@@ -13,6 +13,9 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 \
 # Redis server
 RUN apt-get install -y redis-server
 
+# Start redis-server
+RUN redis-server /etc/redis/redis.conf
+
 # Create the MongoDB data directory
 RUN mkdir -p /data/db
 
