@@ -1,3 +1,4 @@
+FROM node:5.11.0-slim
 ##
 # NodeJS MongoDB Redis
 #
@@ -6,8 +7,6 @@
 # - MongoDB 2.4.8
 # - Redis 2.4.15
 ##
-
-FROM registry.cn-hangzhou.aliyuncs.com/abeldeng/nodejs
 
 #MAINTAINER TruongSinh Tran-Nguyen <i@truongsinh.pro>
 
