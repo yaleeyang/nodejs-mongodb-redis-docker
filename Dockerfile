@@ -14,7 +14,9 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 \
 RUN apt-get install -y redis-server
 
 # Start MongoDB
+RUN service mongod start \
+ && redis-server /etc/redis/redis.conf
+
 #CMD service mongod start \
 # && redis-server /etc/redis/redis.conf \
 # && bash
-CMD bash
