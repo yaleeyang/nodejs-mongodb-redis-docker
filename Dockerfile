@@ -7,7 +7,7 @@
 # - Redis 2.4.15
 ##
 
-FROM truongsinh/nodejs
+FROM shanrong/nodejs
 
 MAINTAINER TruongSinh Tran-Nguyen <i@truongsinh.pro>
 
