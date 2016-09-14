@@ -17,4 +17,4 @@ RUN apt-get install -y redis-server
 #CMD service mongod start \
 # && redis-server /etc/redis/redis.conf \
 # && bash
-CMD ["bash"]
+CMD bash
