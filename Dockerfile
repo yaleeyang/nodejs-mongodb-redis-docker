@@ -7,7 +7,7 @@
 # - Redis 2.4.15
 ##
 
-FROM registry.cn-hangzhou.aliyuncs.com/shanrong/nodejs
+FROM registry.cn-hangzhou.aliyuncs.com/abeldeng/nodejs
 
 #MAINTAINER TruongSinh Tran-Nguyen <i@truongsinh.pro>
 
